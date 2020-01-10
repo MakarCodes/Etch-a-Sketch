@@ -1,0 +1,43 @@
+/* h1{
+    font-family: 'Patrick Hand', cursive;
+  } */
+
+  @font-face {
+    src: url(PatrickHand-Regular.ttf);
+    font-family: nicefont;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 20px auto;
+}
+h1{
+    font-family: nicefont;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.settings{
+    text-align: center;
+}
+
+#reset, #resize{
+    width: 80px;
+    margin: 0 15px;
+    padding: 3px;
+    font-family: nicefont;
+    font-size: 20px;
+}
+
+#color-option{
+    width: 250px;
+    margin: 0 15px;
+    padding: 3px;
+    font-family: nicefont;
+    font-size: 20px;
+}
+
+option{
+    font-family: nicefont;
+}

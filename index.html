@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Etch a Sketch</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Etch a Sketch</h1>
+            <div class="settings">
+                <button id="reset">Reset</button>
+                <select id="color-option">
+                    <option value="black" id="black">Black</option>
+                    <option value="random-rainbow">Random Rainbow</option>
+                    <option value="random-scale-grey">Random Scale Grey</option>
+                </select>
+                <button id="resize">Resize</button>
+            </div>
+
+            <div class="grid"></div>
+    </div>
+
+    <script src="sketch.js"></script>
+</body>
+</html>
