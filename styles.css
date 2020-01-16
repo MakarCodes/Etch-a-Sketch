@@ -41,3 +41,15 @@ h1{
 option{
     font-family: nicefont;
 }
+
+#grid-container{
+    width: 500px;
+    height: 500px;
+    border: solid 5px black;
+    margin: 20px auto;
+    background-color: white;
+}
+
+.cell{
+    background-color: white;
+}
